@@ -31,5 +31,7 @@ Homepage Screenshot:
 [![The Reading Room Homepage](images/homepage.png)](images/homepage.png)
 
 Live link:
-
 https://jannat-333.github.io/cit331-assignment1-0026/
+
+Vercel link:
+https://cit331-assignment1-0026.vercel.app/
