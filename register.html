@@ -1,0 +1,99 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register | The Reading Room</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>📚 The Reading Room</h1>
+        <p>University Book Club</p>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="events.html">Events</a>
+        <a href="register.html" class="active">Register</a>
+    </nav>
+
+    <main>
+        <h2>Register for an Event</h2>
+        <p>Fill in the form to join one of our book club events.</p>
+
+        <form id="registrationForm">
+
+            <div>
+                <label for="fullName">Full Name:</label>
+                <input type="text" id="fullName" name="fullName"
+                       placeholder="Enter your full name" required>
+            </div>
+
+            <div>
+                <label for="email">University Email:</label>
+                <input type="email" id="email" name="email"
+                       placeholder="name@university.edu" required>
+            </div>
+
+            <div>
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone"
+                       placeholder="03001234567"
+                       pattern="[0-9]{11}"
+                       title="Enter an 11-digit phone number"
+                       required>
+            </div>
+
+            <div>
+                <label for="event">Choose an Event:</label>
+                <select id="event" name="event" required>
+                    <option value="">-- Select an event --</option>
+                    <option value="Monthly Book discussion">
+                        Monthly Book discussion
+                    </option>
+                    <option value="Monthly Book discussion">Monthly Book discussion</option>
+                    <option value="English and Urdu Poetry Session">English and Urdu Poetry Session</option>
+                    <option value="Book exchange day">Book exchange day</option>
+                    <option value="Book debate">Book debate</option>
+    
+                </option>
+                </select>
+            </div>
+
+            <fieldset>
+                <legend>How did you hear about us?</legend>
+
+                <input type="radio" id="social" name="source"
+                       value="Social Media" required>
+                <label for="social">Social Media</label>
+
+                <input type="radio" id="friend" name="source"
+                       value="Friend">
+                <label for="friend">Friend</label>
+
+                <input type="radio" id="university" name="source"
+                       value="University Noticeboard">
+                <label for="university">University Noticeboard</label>
+            </fieldset>
+
+            <button type="submit">Register</button>
+        </form>
+
+        <section>
+            <h2>Saved Registrations</h2>
+            <p id="message">Your saved registrations will appear here.</p>
+            <ul id="registrationList"></ul>
+            <button type="button" id="clearButton">Clear All</button>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>© 2026 The Reading Room University Book Club</p>
+    </footer>
+
+</body>
+</html>
