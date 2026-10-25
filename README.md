@@ -1,6 +1,10 @@
 # cit331-assignment1-0026
-Club name:The reading room-The university book club
+Club name:
+
+The reading room-The university book club
+
 Description:
+
 Our club is for people who enjoy reading and telling stories, who have interest in poetry and listening to people talk and for people who have a passion of litracy.In our club we host book discussion, debates, poetry competitions and much more.
 
 Pages
@@ -22,6 +26,10 @@ Pages
 
 
 
-Homepage Screenshot
+Homepage Screenshot:
 
 [![The Reading Room Homepage](images/homepage.png)](images/homepage.png)
+
+Live link:
+
+https://jannat-333.github.io/cit331-assignment1-0026/
